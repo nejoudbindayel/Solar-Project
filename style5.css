@@ -1,0 +1,61 @@
+@import "bootstrap.min.css";
+@import url('https://fonts.googleapis.com/css?family=Eczar:400,500,600,700,800|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Archivo+Black|Tenor+Sans');
+
+body {
+
+    font-family: 'Tenor Sans';
+    font-size:1.5rem;
+    color:#404040;
+
+      margin: auto;
+}
+h1{
+
+text-align: center;
+
+}
+p{
+text-align: center;
+
+}
+
+.bg-counters{
+    background: url(../images/bg-counters.jpg) no-repeat;
+}
+counter-center i{
+   font-size: 13em;    color: rgba(0, 0, 0, 0.1);bottom: 0;
+   display: inline-block;z-index: -1;
+	position: absolute;
+left: 0;
+right: 0;
+margin: auto
+}
+
+.count_nums,.counter-center h6{
+    font-weight: bold;
+    color: #414141;
+
+}
+
+.counter-center:hover .count_nums,.counter-center:hover h6{
+    color: #4E5831;
+}
+
+.counter-center h6{border-bottom: 1px solid #ccc; margin-bottom: 1em;
+    padding-bottom: 1em;    font-family: Roboto;
+    letter-spacing: 2px;
+}
+
+.counter-center p{color: #757365}
+
+.counter-center.whitecolor .count_nums,
+.counter-center.whitecolor h6{
+   color: #fff;
+}
+.count_nums{
+    font-size: 4.25rem;
+    font-family: Eczar;
+}
+.counter-wrap.small .count_nums{
+   font-size: 2.2rem;
+}
